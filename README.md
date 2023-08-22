@@ -1,2 +1,2 @@
 # PakJimi1
-Tugas dari pak jimi
+Tugas CV Zikri Achmad Fahrezy XI RPL 2
