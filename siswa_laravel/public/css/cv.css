@@ -1,0 +1,145 @@
+*{
+    scroll-behavior: smooth;
+    color: var(--primary-color);
+}
+
+main{
+    max-width: 1366px;
+    width: 100%;
+    background: url(/svg/background.svg) fixed;
+    background-color: var(--background-base);
+    background-size: 100%;
+    min-height: 200vh;
+    /* transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1); */
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    height: 60px;
+    padding: 0px 80px;
+    justify-content: space-between;
+    max-width: 1980px;
+    background-color: #00000010;
+}
+
+.profile{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+
+.logo{
+    gap: 8px;
+}
+
+.About-Text{
+    padding-left: 20px;
+}
+
+.About-img{
+    width: 12%;
+    outline: 5px solid var(--secondary-color);
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+
+.nav-title{
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.nav-links{
+    gap: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: var(--secondary-color);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.hero{
+    min-height: 30vh;
+    padding: 80px 150px;
+    margin-bottom: 40vh;
+}
+
+.hero-title{
+    padding: 20px 0px 0px 20px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.hero-subtitle{
+    margin: 0px 0px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.hero-subtitle-special{
+    color: var(--secondary-color);
+}
+
+.hero-btn{
+    gap: 20px;
+}
+
+.hero-btn a{
+    text-decoration: none;
+}
+
+.school{
+    gap: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    gap: 10px;
+    font-weight: 600;
+    min-height: 40px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--background-base);
+    font-size: medium;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+feather.icon.x{
+    color: var(--primary-color);
+    width: 20px;
+    height: 20px;
+}
+
+.page{
+    padding: 80px 150px;
+}
+
+.list img{
+    width: 50px;
+    padding: 10px 0px;
+}

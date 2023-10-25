@@ -1,0 +1,118 @@
+:root{
+    --base: #101820;
+    --primary: #00880D;
+    --secondary: #869CB2;
+    --thrd : #2DDA3E;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.nav{
+    background-color: var(--primary);
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 5px 40px;
+}
+
+.nav-logo{  
+    gap: 20px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.nav-links{
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    width: 1366px;
+    height: 100vh;
+}
+
+.hero-img{
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 1366px;
+}
+
+.hero-text{
+    padding: 40px;
+}
+
+.hero-title{
+    color: var(--primary);
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.btn-green{
+    border-radius: 99px;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    background-color: var(--primary);
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    -ms-border-radius: 99px;
+    -o-border-radius: 99px;
+}
+
+.content{
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+    height: 100vh;
+    padding: 60px;
+    -webkit-border-radius: 50px 50px 0px 0px;
+    -moz-border-radius: 50px 50px 0px 0px;
+    -ms-border-radius: 50px 50px 0px 0px;
+    -o-border-radius: 50px 50px 0px 0px;
+}
+
+.card{
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    padding: 40px;
+    background-color: var(--base);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.card-title{
+    font-size: large;
+}
+
+.footer{
+    gap: 20px;
+    border-radius: 50px 50px 0px 0px;
+    height: 80vh;
+    padding: 60px;
+    margin-top: -50px;
+    background-color: var(--base);
+}
+
+.footer-content p{
+    color: white;
+}
